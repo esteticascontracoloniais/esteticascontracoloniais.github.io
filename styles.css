@@ -1,0 +1,351 @@
+/* Geral */
+
+html, body{
+	background: #ffffff; 
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins';
+	font-size: 22px;
+	color: #1e1e1e;
+}
+
+.nav {
+	font-size: 20px;
+	
+}
+
+.active {
+	color:#ba3a21 !important;
+}
+.navbar {
+	/* height:50px; */
+	background-color: #2b1231;
+}
+.nav-link {
+	background-color: #2b1231;
+	color: white;
+	padding-block: 20px;
+	/* height:60px;
+	padding-top: 15px; */
+	
+}
+
+.nav-link:hover{
+	background-color: white;
+	color: black;
+}
+
+
+
+
+.navbar-toggler-icon {
+	/* background-color: #2b1231; */
+	/* color: white; */
+	height: 25px;
+	shape-margin: #2b1231;
+
+}
+
+.navbar-dark {
+	color:white;
+	border-color: #2b1231;
+}
+
+
+.subscription{
+	background-color: #ba3a21;
+	color: white;
+	/* position: absolute; */
+	right: 0;
+
+}
+
+.subscription:hover{
+	background-color: white;
+	color:black;
+}
+
+.card {
+	border: #ffffff !important;
+}
+
+
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+li {
+	list-style: none;
+	line-height: 30px;
+}
+
+li:active {
+	color: #c36344;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color:#c36344;
+}
+
+
+tr {
+	color: #ba3a21;
+	background-color: #ba3a21;
+	opacity: 100%;
+}
+
+td {
+	color: #ba3a21;
+	background-color: #ba3a21;
+	font-size: 1em;
+}
+
+
+
+.estetica-flecha {
+	max-width: 100%;
+}
+
+h1 {
+	background-color: #2b1230; 
+	color: #bc3b1a;
+	padding-block: 10px;
+	font-size: 40px;
+	/* padding-bottom: 0px; */
+	/* margin-top: 0px;
+	height:90px;
+	padding-top: 25px;
+	font-size: 40px; */
+	
+}
+
+
+
+
+h2 {
+	background-color: #bc3b1a;
+	color: white;
+	padding-block: 10px;	
+	font-size: 30px;
+}
+
+
+h3 {
+	font-size: 20px;
+	padding-block: 15px;
+
+}
+
+.mesa {
+	padding-left: 40px;
+}
+
+
+
+
+
+
+.dias {
+	padding-left: 30px;
+
+}
+
+
+
+.barra-final {
+	height: 15px;
+	background-color: #bc3b1a;
+	opacity: 100%;
+	border-color: #bc3b1a;
+}
+
+
+.timer {
+	font-size: 50px;
+	padding-block: 3px;
+	margin-block: 0px;
+	/* padding-left: 30px; */
+	/* margin-top: 1px;
+	padding-top: 0px;
+	border-top: 0px; */
+}
+
+
+footer img {
+	max-height: 70%;
+	max-width: 70%;
+	/* padding: 1px; */
+	margin-left: 0px;
+	margin-right: 0px;
+	/* display: block; */
+	/* height: auto !important;
+	width: auto !important; */
+	/* padding-left: 10px; */
+}
+
+footer p {
+	font-size: 15px;
+}
+
+#hora {
+	color: #bc3b1a;
+	padding-block: 20px;
+}
+
+.linha-hora{
+	height: 8px !important;
+	background-color: #bc3b1a;
+	opacity: 100%;
+	border-color: #bc3b1a;
+}
+
+.linha-divisoria{
+	height: 5px;
+	background-color: #bc3b1a;
+	opacity: 100%;
+	border-color: #bc3b1a;
+}
+
+
+
+
+/* Desktop e tablet*/
+
+
+@media (min-width: 567px) {
+
+	p {
+		padding-inline: 20px;
+		padding-block: 15px;
+	}
+	.org {
+		background-color:#ba3a21;
+		color: white;
+		height: 400px;
+	}
+	
+	#label-inicio-evento {
+		padding-top: 60px;
+	}
+
+	
+		/* imagens */
+	.logo-realizacao {
+		max-width: auto;
+		max-height: 80px;
+		/* padding-left: 30px; */
+		/* padding-top: 10px; */
+		/* margin-left: 10px;
+		padding-right: 10px; */
+	}
+	#instagram{
+		max-height: 40px;
+		/* padding-left: 60px; */
+		margin-top: 30px;
+	}
+
+	.label-footer {
+		padding-left: 20px; 
+		font-size: 18px;
+	}
+
+	/* #label-inicio-evento {
+		padding-top: 100px;
+	} */
+
+	
+}
+  
+
+/* Mobile */
+@media (max-width: 576px) {
+
+	h1 {
+		font-size: 1.5em;
+	
+	}
+
+	h2 {
+		font-size: 1.2em;
+	}
+
+	h3 {
+		font-size: 1em;
+	}
+
+	p, td {
+		font-size: 0.8em;
+	}	
+
+	li {
+		font-size: 0.8em;
+	}
+	.abertura {
+		padding-top: 15px;
+	}
+
+	.menu-custom {
+		padding-block: 10px;
+	}
+	
+
+	.org {
+		background-color:#ba3a21;
+		color: white;
+		height: 200px;
+	}
+
+	footer p {
+		font-size: 18px;
+	}
+
+	#label-inicio-evento {
+		padding-top: 0px;
+	}
+
+	#instagram{
+		max-height: 30px;
+		
+	}
+
+	.logo-realizacao {
+		max-width: 400px;
+		height: 200;
+	}
+
+	
+
+	.logo{
+		max-width: 130px;
+		max-height: 300px;
+		padding-inline: 10px;
+		/* padding: 2px; */
+		align-items: center;
+}
+
+
+
+.timer {
+	font-size: 30px;
+	padding-block: 3px;
+	/* padding-left: 30px; */
+	/* margin-top: 1px;
+	padding-top: 0px;
+	border-top: 0px; */
+}
+}
+
+	
+  
+
+
+
+
