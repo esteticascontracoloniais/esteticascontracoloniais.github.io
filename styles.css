@@ -1,11 +1,21 @@
 /* Geral */
 
+/* @font-face {
+	font-family: "Poppins";
+	src:
+	  local("Poppins}"),
+	  url("fonts/Poppins/") format("opentype") tech(color-COLRv1),
+	  url("fonts/Poppins/outline.otf") format("opentype"),
+	  url("fonts/Poppins/outline.woff") format("woff");
+  } */
+  
+
 html, body{
 	background: #ffffff; 
 	height: 100%;
 	width: 100%;
 	font-family: 'Poppins';
-	font-size: 22px;
+	font-size: 20px;
 	color: #1e1e1e;
 }
 
@@ -24,7 +34,7 @@ html, body{
 .nav-link {
 	background-color: #2b1231;
 	color: white;
-	padding-block: 20px;
+	padding-block: 15px;
 	/* height:60px;
 	padding-top: 15px; */
 	
@@ -71,6 +81,7 @@ html, body{
 
 
 
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -78,7 +89,7 @@ ul {
 
 
 li {
-	list-style: none;
+	/* list-style: none; */
 	line-height: 30px;
 }
 
@@ -95,18 +106,26 @@ a:hover {
 	color:#c36344;
 }
 
-
-tr {
-	color: #ba3a21;
-	background-color: #ba3a21;
-	opacity: 100%;
+#seminario {
+	/* height: 1200px; */
+	max-width: auto;
+	padding-top: 10px;
+	
 }
 
-td {
-	color: #ba3a21;
+table {
+    border-collapse:separate;
+    border:solid white 1px;
+    border-radius:6px;
 	background-color: #ba3a21;
-	font-size: 1em;
+	color: white;
+	width: 800px;
+	border:1;
+	font-size: 16px;
+	/* frame:hsides;
+	rules:rows */
 }
+
 
 
 
@@ -117,7 +136,7 @@ td {
 h1 {
 	background-color: #2b1230; 
 	color: #bc3b1a;
-	padding-block: 10px;
+	padding-block: 15px;
 	font-size: 40px;
 	/* padding-bottom: 0px; */
 	/* margin-top: 0px;
@@ -133,7 +152,7 @@ h1 {
 h2 {
 	background-color: #bc3b1a;
 	color: white;
-	padding-block: 10px;	
+	padding-block: 15px;	
 	font-size: 30px;
 }
 
@@ -149,9 +168,21 @@ h3 {
 }
 
 
+a {
+	color: #ba3a21;
+}
+
+/* #luana-vitra-bienal-2 {
+	max-width: 750px;
+} */
 
 
 
+figcaption {
+	font-size: 14px;
+	color: rgb(88, 86, 86);
+	padding-bottom: 0px;
+}
 
 .dias {
 	padding-left: 30px;
@@ -215,58 +246,17 @@ footer p {
 }
 
 
-
-
-/* Desktop e tablet*/
-
-
-@media (min-width: 567px) {
-
-	p {
-		padding-inline: 20px;
-		padding-block: 15px;
-	}
-	.org {
-		background-color:#ba3a21;
-		color: white;
-		height: 400px;
-	}
-	
-	#label-inicio-evento {
-		padding-top: 60px;
-	}
-
-	
-		/* imagens */
-	.logo-realizacao {
-		max-width: auto;
-		max-height: 80px;
-		/* padding-left: 30px; */
-		/* padding-top: 10px; */
-		/* margin-left: 10px;
-		padding-right: 10px; */
-	}
-	#instagram{
-		max-height: 40px;
-		/* padding-left: 60px; */
-		margin-top: 30px;
-	}
-
-	.label-footer {
-		padding-left: 20px; 
-		font-size: 18px;
-	}
-
-	/* #label-inicio-evento {
-		padding-top: 100px;
-	} */
-
-	
-}
-  
-
 /* Mobile */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+	
+	#luana-vitra-bienal-1 {
+		max-width: 380px;
+	} 
+	
+	.abertura {
+		padding-inline: 20px;
+		padding-block: 10px
+	}
 
 	h1 {
 		font-size: 1.5em;
@@ -288,9 +278,7 @@ footer p {
 	li {
 		font-size: 0.8em;
 	}
-	.abertura {
-		padding-top: 15px;
-	}
+	
 
 	.menu-custom {
 		padding-block: 10px;
@@ -298,9 +286,10 @@ footer p {
 	
 
 	.org {
-		background-color:#ba3a21;
+		background-color:#c36344;
 		color: white;
-		height: 200px;
+		/* height: 1200px; */
+		font-size: 12px;
 	}
 
 	footer p {
@@ -331,17 +320,115 @@ footer p {
 		align-items: center;
 }
 
+	.luana-vitra-bienal-2 {
+		max-width: 378px;
+	}
+
+	.timer {
+		font-size: 30px;
+		padding-block: 3px;
+		/* padding-left: 30px; */
+		/* margin-top: 1px;
+		padding-top: 0px;
+		border-top: 0px; */
+	}
+}
+
+.org {
+	background-color:#c36344;
+	color: white;
+	height: auto;
+	width: auto;
+	border-color:white;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 20px;
+	font-size: 15px;	
+	padding-block: 15px;
+	padding-inline: 25px;
+	}
 
 
-.timer {
-	font-size: 30px;
-	padding-block: 3px;
-	/* padding-left: 30px; */
-	/* margin-top: 1px;
-	padding-top: 0px;
-	border-top: 0px; */
+#luana-vitra-bienal-evento {
+	/* height: auto; */
+	max-width: 420px;
+	/* margin-block: 15px; */
 }
+
+/* Desktop e tablet*/
+
+@media (min-width: 769px) {
+
+	p {
+		font-size: 18px;
+	}
+
+
+	#luana-vitra-bienal-index {
+		height: auto;
+		/* max-width: 400px;
+		margin-block: 15px; */
+	}
+	.abertura {
+		padding-left: 50px;
+		padding-block: 20px;
+		
+	}
+	.org {
+		font-size: 15px;	
+		position: relative;
+		}
+	
+	li {
+		line-height: 20px;
+	}
+	h5 {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	
+	#label-inicio-evento {
+		padding-top: 110px;
+	}
+
+	
+		/* imagens */
+	.logo-realizacao {
+		max-width: auto;
+		max-height: 80px;
+		/* padding-left: 30px; */
+		/* padding-top: 10px; */
+		/* margin-left: 10px;
+		padding-right: 10px; */
+	}
+	#instagram{
+		max-height: 40px;
+		/* padding-left: 60px; */
+		margin-top: 20px;
+	}
+
+	.label-footer {
+		padding-left: 20px; 
+		font-size: 18px;
+	}
+
+	#luana-vitra-bienal-1 {
+		max-width: 180px;
+		height: auto;
+	} 
+	.logo {
+		/* max-width: 150px;
+		padding-inline: 15px; */
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		/* align-items: center; */
+	}
 }
+	
+  
+
+
 
 	
   
