@@ -28,8 +28,9 @@ html, body{
 	color:#ba3a21 !important;
 }
 .navbar {
-	/* height:50px; */
+
 	background-color: #2b1231;
+	
 }
 .nav-link {
 	background-color: #2b1231;
@@ -53,6 +54,7 @@ html, body{
 	/* color: white; */
 	height: 25px;
 	shape-margin: #2b1231;
+	
 
 }
 
@@ -114,25 +116,23 @@ a:hover {
 }
 
 
-div {
+/* div {
 	overflow-x:auto;
-}
+} */
+
 table {
     border-collapse:separate;
     border:solid white 1px;
     border-radius:6px;
 	background-color: #ba3a21;
 	color: white;
-	/* width: 400px; */
 	border:1;
 	font-size: 16px;
-	
 }
 
 td {
-	padding-left: 10px;
+	padding-left: 5px;
 }
-
 
 
 
@@ -145,10 +145,20 @@ h1 {
 	color: #bc3b1a;
 	padding-block: 15px;
 	font-size: 40px;
-	
+}
+
+h1 b {
+	padding-left: 20px;
+}
+
+h2 b {
+	padding-left: 20px;
 }
 
 
+.teste * {
+	padding-left: 20px;
+}
 
 
 h2 {
@@ -181,6 +191,7 @@ figcaption {
 	font-size: 14px;
 	color: rgb(88, 86, 86);
 	padding-bottom: 0px;
+	padding-left: 30px;
 }
 
 .dias {
@@ -250,6 +261,19 @@ footer p {
 
 /* Mobile */
 @media (max-width: 768px) {
+
+	h1 b {
+		font-size: 24px;
+		padding-left: 2%;
+	}
+	h2 b {
+		font-size: 20px;
+		padding-left: 2%;
+	}
+	div.contato {
+		padding-left: 25px;
+	}
+	
 	
 	#luana-vitra-bienal-1 {
 		max-width: 380px;
@@ -286,12 +310,18 @@ footer p {
 		padding-block: 10px;
 	}
 	
-
+	h5 {
+		font-size: 18px;
+	}
 	.org {
 		background-color:#c36344;
 		color: white !important;
 		/* height: 1200px; */
 		font-size: 12px;
+		padding-block: 10px;
+		padding-inline: 40px;
+		border-top-left-radius: 20px;
+		border-bottom-right-radius: 10px;
 	}
 
 	footer p {
@@ -336,18 +366,7 @@ footer p {
 	}
 }
 
-.org {
-	background-color:#c36344;
-	color: white;
-	height: auto;
-	width: auto;
-	border-color:white;
-	border-top-left-radius: 30px;
-	border-bottom-right-radius: 20px;
-	font-size: 15px;	
-	padding-block: 15px;
-	padding-inline: 25px;
-	}
+
 
 
 #luana-vitra-bienal-evento {
@@ -359,9 +378,15 @@ footer p {
 /* Desktop e tablet*/
 
 @media (min-width: 769px) {
+	
+
+	div.contato {
+		padding-left: 85px;
+	}
+	
 
 	p {
-		font-size: 18px;
+		font-size: 18px;		
 	}
 
 
@@ -378,6 +403,16 @@ footer p {
 	.org {
 		font-size: 15px;	
 		position: relative;
+		background-color:#c36344;
+		color: white;
+		height: auto;
+		width: auto;
+		border-color:white;
+		border-top-left-radius: 30px;
+		border-bottom-right-radius: 20px;
+		padding-block: 15px;
+		padding-inline: 25px;
+			
 		}
 	
 	li {
