@@ -321,7 +321,7 @@ footer p {
 		color: white ;
 		width: 100%;
 		/* height: 1200px; */
-		font-size: 12px;
+		font-size: 14px;
 		padding-block: 10px;
 		/* padding-inline: 40px; */
 		border-top-left-radius: 20px;
@@ -350,12 +350,14 @@ footer p {
 	
 
 	.logo{
-		max-width: 130px;
-		max-height: 300px;
+		max-width: 250px;
+		max-height: auto;
 		padding-inline: 10px;
 		/* padding: 2px; */
 		align-items: center;
 }
+
+
 
 	.luana-vitra-bienal-2 {
 		max-width: 378px;
@@ -368,6 +370,11 @@ footer p {
 		/* margin-top: 1px;
 		padding-top: 0px;
 		border-top: 0px; */
+	}
+
+	#instagram-contato {
+		max-height: 40px;
+		max-width: 40px;
 	}
 }
 
@@ -383,6 +390,11 @@ footer p {
 /* Desktop e tablet*/
 
 @media (min-width: 769px) {
+
+	#instagram-contato {
+		max-height: 40px;
+		max-width: 40px;
+	}
 	
 
 	div.contato {
@@ -464,7 +476,8 @@ footer p {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 50%;
+		width: 200px;
+		height: auto;
 		/* align-items: center; */
 	}
 }
@@ -472,7 +485,7 @@ footer p {
 @media (min-width: 1400px)
 	{
 	.org {
-		font-size: 15px;	
+		font-size: 16px;	
 		position: relative;
 		background-color:#c36344;
 		color: white;
