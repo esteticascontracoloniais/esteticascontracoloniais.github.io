@@ -188,6 +188,16 @@ a {
 }
 
 
+.org {
+	background-color:#c36344;
+	color: white ;
+	width: 100%;
+	
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 10px;
+	margin-inline: 15px;
+}
+
 
 
 figcaption {
