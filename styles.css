@@ -376,8 +376,6 @@ footer p {
 	.logo{
 		max-width: 250px;
 		max-height: auto;
-		margin-inline: 20px;
-		/* padding: 2px; */
 		align-items: center;
 }
 
@@ -526,6 +524,9 @@ footer p {
 		padding-block: 15px;
 		padding-inline: 25px;
 		}
+	/* .logo {
+		max-width: 250px;
+	} */
 	}
 
 @media (min-width: 992px) {
