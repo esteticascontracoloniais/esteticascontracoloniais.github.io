@@ -271,9 +271,23 @@ footer p {
 	border-color: #bc3b1a;
 }
 
+/* Telas menores */
+
+@media (max-width: 576px) {
+	#realizacao {
+		padding-top: 20px;
+	}
+}
 
 /* Mobile */
+
+
 @media (max-width: 768px) {
+
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+	}
 
 	h1 b {
 		font-size: 24px;
@@ -362,7 +376,7 @@ footer p {
 	.logo{
 		max-width: 250px;
 		max-height: auto;
-		padding-inline: 10px;
+		margin-inline: 20px;
 		/* padding: 2px; */
 		align-items: center;
 }
@@ -386,6 +400,8 @@ footer p {
 		max-height: 40px;
 		max-width: 40px;
 	}
+
+	
 }
 
 
@@ -400,6 +416,7 @@ footer p {
 /* Desktop e tablet*/
 
 @media (min-width: 769px) {
+
 
 	#instagram-contato {
 		max-height: 40px;
@@ -465,6 +482,16 @@ footer p {
 		/* margin-left: 10px;
 		padding-right: 10px; */
 	}
+
+	.logo {
+		margin-inline: 100px;
+		display: block;
+		/* margin-left: 10px; */
+		/* margin-right: auto; */
+		max-width: 250px;
+		height: auto;
+		align-items: center;
+	}
 	#instagram{
 		max-height: 40px;
 		/* padding-left: 60px; */
@@ -475,21 +502,13 @@ footer p {
 		padding-left: 20px; 
 		font-size: 18px;
 	}
+	
 
 	#luana-vitra-bienal-1 {
 		max-width: 180px;
 		height: auto;
 	} 
-	.logo {
-		/* max-width: 150px;
-		padding-inline: 15px; */
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 200px;
-		height: auto;
-		/* align-items: center; */
-	}
+	
 }
 	
 @media (min-width: 1400px)
@@ -508,6 +527,16 @@ footer p {
 		padding-inline: 25px;
 		}
 	}
+
+@media (min-width: 992px) {
+	
+	.logo {
+		max-width: 150px;
+		margin-inline: 55px;
+		height: auto;
+	}
+		}
+	
 
 
 
