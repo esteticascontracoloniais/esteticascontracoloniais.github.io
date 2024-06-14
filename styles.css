@@ -271,6 +271,9 @@ footer p {
 	border-color: #bc3b1a;
 }
 
+td:first-child { 
+	text-align: left;
+	width: 150px; }
 /* Telas menores */
 
 @media (max-width: 576px) {
@@ -282,6 +285,12 @@ footer p {
 /* Mobile */
 
 
+/* .linha-normal {
+	height: 20px;
+} */
+#linha-grossa {
+	height: 120px;
+}
 @media (max-width: 768px) {
 
 	.row {
