@@ -271,9 +271,11 @@ footer p {
 	border-color: #bc3b1a;
 }
 
-td:first-child { 
+.coluna td:first-child { 
 	text-align: left;
 	width: 150px; }
+
+
 /* Telas menores */
 
 @media (max-width: 576px) {
