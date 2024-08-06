@@ -421,12 +421,12 @@ footer p {
 	}
 
 	table{
-		font-size: 11px;
+		font-size: 14px;
 		max-width: 200px;
 		
 	}
 	td {
-		max-width: 80px;
+		max-width: 96px;
 		word-wrap: break-word
 	}
 	
