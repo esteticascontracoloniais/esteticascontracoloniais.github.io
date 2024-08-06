@@ -19,6 +19,13 @@
 	color: #252424;
 }
 
+.mesa { 
+	text-align: center !important;
+}
+
+.filmes {
+	margin-left: 15px;
+}
 em {
 	color:#ba3a21;
 }
@@ -436,6 +443,8 @@ footer p {
 
 @media (min-width: 769px) {
 
+	
+
 	.coluna td:first-child { 
 		text-align: left;
 		width: 250px; }
@@ -572,6 +581,5 @@ footer p {
 
 	
   
-
 
 
