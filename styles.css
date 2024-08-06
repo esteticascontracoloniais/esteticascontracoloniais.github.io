@@ -299,7 +299,7 @@ footer p {
 #linha-grossa {
 	height: 120px;
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) { /* Mobile */
 
 	.coluna td:first-child { 
 		text-align: left;
@@ -421,11 +421,13 @@ footer p {
 	}
 
 	table{
-		font-size: 12px;
+		font-size: 11px;
 		max-width: 200px;
+		
 	}
-	td, table {
-		max-width: 100px;
+	td {
+		max-width: 80px;
+		word-wrap: break-word
 	}
 	
 }
@@ -581,5 +583,4 @@ footer p {
 
 	
   
-
 
