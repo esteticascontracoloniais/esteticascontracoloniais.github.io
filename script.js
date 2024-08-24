@@ -7,7 +7,7 @@ var x = setInterval(function() {
   // Get today's date and time
   var now = new Date().getTime();
     
-  // Find the distance between now and the count down date
+  // Find the distance between now and the count down dat e
   var distance = countDownDate - now;
     
   // Time calculations for days, hours, minutes and seconds
@@ -23,8 +23,9 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     // clearInterval(x);
-    document.getElementById("hora").innerHTML = "O evento começou!";
-    document.getElementById("label-inicio-evento").remove()
-    document.getElementById("label-dias").remove()
+    document.getElementById("hora").remove();
+    document.getElementById("label-inicio-evento").innerHTML = "O evento começou!"
+        ;
+    document.getElementById("label-dias").innerHTML = '<p style="font-size:24px">Assista à transmissão ao vivo no nosso <a href="https://www.youtube.com/c/Experi%C3%AAnciasDescoloniais/streams" target="_blank" rel="noopener noreferrer";">canal</a>.</p>';
   }
 }, 1);
